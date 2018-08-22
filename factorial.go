@@ -11,6 +11,8 @@ func fact(x int) int {
 }
 
 func main(){
-	a := 5
+	var a int
+	fmt.Println("Enter a number to print the factorial")
+	fmt.Scanf("%d", &a)
 	fmt.Println(fact(a))
 }

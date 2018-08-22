@@ -11,6 +11,8 @@ func fibo(x int) int {
 }
 
 func main(){
-	a := 10
+	var a int
+	fmt.Println("Enter a number to print the fibonacci value")
+	fmt.Scanf("%d", &a)
 	fmt.Println(fibo(a))
 }
